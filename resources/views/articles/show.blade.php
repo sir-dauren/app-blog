@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="container">
-        <img class="w-full rounded-xl my-8" src="images/article_demo.jpg" alt="">
+        <img class="w-full rounded-xl my-8" src="{{ $oneArticle->images }}" width = "250" alt="">
 
         <div class="prose prose-lg min-w-full prose-img:rounded-xl prose-invert">
             <h1 class="text-[26px] sm:text-xl xl:text-[48px] 2xl:text-2xl font-black">
