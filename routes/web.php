@@ -20,6 +20,5 @@ Route::get('/', [IndexController::class, 'index'])->name('home');
 
 Route::resource('/articles', ArticleController::class);
 
-
 Route::get('/category/{id}', [CategoryController::class, 'showCetegoryPost'])->name('post_category');
 

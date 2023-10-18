@@ -3,6 +3,7 @@
 @section('title', 'Подробнее')
 
 @section('content')
+
     <div class="container">
         <img class="w-full rounded-xl my-8" src="{{ $oneArticle->images }}" width = "250" alt="">
 
@@ -11,7 +12,7 @@
                 {{ $oneArticle->title }}
             </h1>
             <div class="flex flex-wrap gap-3 mt-7">
-                <a href="{{  route('post_category', $oneArticle->id)  }}"
+                <a href="{{  route('post_category', $categories->id)  }}"
                 class="grow xs:grow-0 py-2 px-4 rounded-[32px] bg-[#2A2B4E] text-white no-underline text-xxs sm:text-xs font-semibold whitespace-nowrap">
                     {{ $oneArticle->category->title }}
                 </a>
@@ -22,4 +23,5 @@
             </div>
         </div>
     </div>
+
 @endsection

@@ -19,7 +19,7 @@
                     <h3 class="text-md md:text-lg 2xl:text-xl font-black">{{ $post->title }}</h3>
                     <div class="mt-auto">
                         <div class="flex flex-wrap gap-3 mt-7">
-                            <a href="{{ route('articles.show', ['article' => $post->id]) }}"
+                            <a href="{{ route('post_category', $post->category->id) }}"
                             class="grow xs:grow-0 py-2 px-4 rounded-[32px] bg-[#2A2B4E] text-white no-underline text-xxs sm:text-xs font-semibold whitespace-nowrap">
                                 {{ $post->category->title }}
                             </a>

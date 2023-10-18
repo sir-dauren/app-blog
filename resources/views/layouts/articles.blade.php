@@ -16,6 +16,7 @@
 
     @vite('resources/js/app.js')
 </head>
+
 <body class="antialiased">
 
 
@@ -41,7 +42,7 @@
 
     </div>
 
-@include('include.footer')
+    @include('include.footer')
 
 </body>
 </html>

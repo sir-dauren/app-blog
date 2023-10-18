@@ -41,8 +41,9 @@ class ArticleController extends Controller
     public function show(string $id)
     {
         $oneArticle = Article::findOrFail($id);
+        $categories = $oneArticle->category;
 
-        return view('articles.show', compact('oneArticle'));
+        return view('articles.show', compact('oneArticle', 'categories'));
 
     }
 

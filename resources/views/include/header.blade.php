@@ -5,7 +5,7 @@
                 <a href="{{ route('home') }}" rel="home">
                     <img alt="CutCode"
                          class="w-[148px] md:w-[201px] h-[36px] md:h-[50px] inline-block"
-                         src="images/nav/logo.svg"
+                         src="../images/nav/logo.svg"
                     >
                 </a>
             </div><!-- /.header-logo -->
@@ -31,7 +31,7 @@
 
                         <img alt="Username"
                              class="shrink-0 w-10 h-10 rounded-full"
-                             src="images/nav/logo.svg"
+                             src="../images/nav/logo.svg"
                         >
 
                         <svg class="shrink-0 w-4 h-4 ml-3" fill="currentColor" viewBox="0 0 30 16"
@@ -52,7 +52,7 @@
                             <a href="profile.html" class="flex items-center">
                                 <img alt="Username"
                                      class="w-11 h-11 rounded-full"
-                                     src="images/nav/logo.svg"
+                                     src="../images/nav/logo.svg"
                                 >
                                 <span class="ml-3 text-xs md:text-sm font-bold text-white">
                                         Username
